@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA6F26A25B130F1003037F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F26925B130F1003037F8 /* AppDelegate.swift */; };
+		DEA6F26C25B130F1003037F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F26B25B130F1003037F8 /* SceneDelegate.swift */; };
+		DEA6F26E25B130F1003037F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F26D25B130F1003037F8 /* ViewController.swift */; };
+		DEA6F27125B130F1003037F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6F26F25B130F1003037F8 /* Main.storyboard */; };
+		DEA6F27325B130F3003037F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA6F27225B130F3003037F8 /* Assets.xcassets */; };
+		DEA6F27625B130F3003037F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6F27425B130F3003037F8 /* LaunchScreen.storyboard */; };
+		DEA6F28125B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F28025B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.swift */; };
+		DEA6F28C25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F28B25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA6F27D25B130F3003037F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA6F25E25B130F1003037F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA6F26525B130F1003037F8;
+			remoteInfo = AndroidCatchUpExampleSwiftApp;
+		};
+		DEA6F28825B130F3003037F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA6F25E25B130F1003037F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA6F26525B130F1003037F8;
+			remoteInfo = AndroidCatchUpExampleSwiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA6F26625B130F1003037F8 /* AndroidCatchUpExampleSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidCatchUpExampleSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6F26925B130F1003037F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA6F26B25B130F1003037F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEA6F26D25B130F1003037F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA6F27025B130F1003037F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA6F27225B130F3003037F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA6F27525B130F3003037F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA6F27725B130F3003037F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6F27C25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidCatchUpExampleSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6F28025B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidCatchUpExampleSwiftAppTests.swift; sourceTree = "<group>"; };
+		DEA6F28225B130F3003037F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6F28725B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidCatchUpExampleSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6F28B25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidCatchUpExampleSwiftAppUITests.swift; sourceTree = "<group>"; };
+		DEA6F28D25B130F3003037F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA6F26325B130F1003037F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6F27925B130F3003037F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6F28425B130F3003037F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA6F25D25B130F1003037F8 = {
+			isa = PBXGroup;
+			children = (
+				DEA6F26825B130F1003037F8 /* AndroidCatchUpExampleSwiftApp */,
+				DEA6F27F25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests */,
+				DEA6F28A25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests */,
+				DEA6F26725B130F1003037F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA6F26725B130F1003037F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6F26625B130F1003037F8 /* AndroidCatchUpExampleSwiftApp.app */,
+				DEA6F27C25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.xctest */,
+				DEA6F28725B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA6F26825B130F1003037F8 /* AndroidCatchUpExampleSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6F26925B130F1003037F8 /* AppDelegate.swift */,
+				DEA6F26B25B130F1003037F8 /* SceneDelegate.swift */,
+				DEA6F26D25B130F1003037F8 /* ViewController.swift */,
+				DEA6F26F25B130F1003037F8 /* Main.storyboard */,
+				DEA6F27225B130F3003037F8 /* Assets.xcassets */,
+				DEA6F27425B130F3003037F8 /* LaunchScreen.storyboard */,
+				DEA6F27725B130F3003037F8 /* Info.plist */,
+			);
+			path = AndroidCatchUpExampleSwiftApp;
+			sourceTree = "<group>";
+		};
+		DEA6F27F25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6F28025B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.swift */,
+				DEA6F28225B130F3003037F8 /* Info.plist */,
+			);
+			path = AndroidCatchUpExampleSwiftAppTests;
+			sourceTree = "<group>";
+		};
+		DEA6F28A25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6F28B25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.swift */,
+				DEA6F28D25B130F3003037F8 /* Info.plist */,
+			);
+			path = AndroidCatchUpExampleSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA6F26525B130F1003037F8 /* AndroidCatchUpExampleSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6F29025B130F3003037F8 /* Build configuration list for PBXNativeTarget "AndroidCatchUpExampleSwiftApp" */;
+			buildPhases = (
+				DEA6F26225B130F1003037F8 /* Sources */,
+				DEA6F26325B130F1003037F8 /* Frameworks */,
+				DEA6F26425B130F1003037F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidCatchUpExampleSwiftApp;
+			productName = AndroidCatchUpExampleSwiftApp;
+			productReference = DEA6F26625B130F1003037F8 /* AndroidCatchUpExampleSwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA6F27B25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6F29325B130F3003037F8 /* Build configuration list for PBXNativeTarget "AndroidCatchUpExampleSwiftAppTests" */;
+			buildPhases = (
+				DEA6F27825B130F3003037F8 /* Sources */,
+				DEA6F27925B130F3003037F8 /* Frameworks */,
+				DEA6F27A25B130F3003037F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA6F27E25B130F3003037F8 /* PBXTargetDependency */,
+			);
+			name = AndroidCatchUpExampleSwiftAppTests;
+			productName = AndroidCatchUpExampleSwiftAppTests;
+			productReference = DEA6F27C25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEA6F28625B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6F29625B130F3003037F8 /* Build configuration list for PBXNativeTarget "AndroidCatchUpExampleSwiftAppUITests" */;
+			buildPhases = (
+				DEA6F28325B130F3003037F8 /* Sources */,
+				DEA6F28425B130F3003037F8 /* Frameworks */,
+				DEA6F28525B130F3003037F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA6F28925B130F3003037F8 /* PBXTargetDependency */,
+			);
+			name = AndroidCatchUpExampleSwiftAppUITests;
+			productName = AndroidCatchUpExampleSwiftAppUITests;
+			productReference = DEA6F28725B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA6F25E25B130F1003037F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DEA6F26525B130F1003037F8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DEA6F27B25B130F3003037F8 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DEA6F26525B130F1003037F8;
+					};
+					DEA6F28625B130F3003037F8 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DEA6F26525B130F1003037F8;
+					};
+				};
+			};
+			buildConfigurationList = DEA6F26125B130F1003037F8 /* Build configuration list for PBXProject "AndroidCatchUpExampleSwiftApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA6F25D25B130F1003037F8;
+			productRefGroup = DEA6F26725B130F1003037F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA6F26525B130F1003037F8 /* AndroidCatchUpExampleSwiftApp */,
+				DEA6F27B25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests */,
+				DEA6F28625B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA6F26425B130F1003037F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6F27625B130F3003037F8 /* LaunchScreen.storyboard in Resources */,
+				DEA6F27325B130F3003037F8 /* Assets.xcassets in Resources */,
+				DEA6F27125B130F1003037F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6F27A25B130F3003037F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6F28525B130F3003037F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA6F26225B130F1003037F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6F26E25B130F1003037F8 /* ViewController.swift in Sources */,
+				DEA6F26A25B130F1003037F8 /* AppDelegate.swift in Sources */,
+				DEA6F26C25B130F1003037F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6F27825B130F3003037F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6F28125B130F3003037F8 /* AndroidCatchUpExampleSwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6F28325B130F3003037F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6F28C25B130F3003037F8 /* AndroidCatchUpExampleSwiftAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA6F27E25B130F3003037F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA6F26525B130F1003037F8 /* AndroidCatchUpExampleSwiftApp */;
+			targetProxy = DEA6F27D25B130F3003037F8 /* PBXContainerItemProxy */;
+		};
+		DEA6F28925B130F3003037F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA6F26525B130F1003037F8 /* AndroidCatchUpExampleSwiftApp */;
+			targetProxy = DEA6F28825B130F3003037F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA6F26F25B130F1003037F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA6F27025B130F1003037F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA6F27425B130F3003037F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA6F27525B130F3003037F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA6F28E25B130F3003037F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA6F28F25B130F3003037F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA6F29125B130F3003037F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = AndroidCatchUpExampleSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.AndroidCatchUpExampleSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA6F29225B130F3003037F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = AndroidCatchUpExampleSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.AndroidCatchUpExampleSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEA6F29425B130F3003037F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = AndroidCatchUpExampleSwiftAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.AndroidCatchUpExampleSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidCatchUpExampleSwiftApp.app/AndroidCatchUpExampleSwiftApp";
+			};
+			name = Debug;
+		};
+		DEA6F29525B130F3003037F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = AndroidCatchUpExampleSwiftAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.AndroidCatchUpExampleSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidCatchUpExampleSwiftApp.app/AndroidCatchUpExampleSwiftApp";
+			};
+			name = Release;
+		};
+		DEA6F29725B130F3003037F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = AndroidCatchUpExampleSwiftAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.AndroidCatchUpExampleSwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndroidCatchUpExampleSwiftApp;
+			};
+			name = Debug;
+		};
+		DEA6F29825B130F3003037F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5BF5553KY;
+				INFOPLIST_FILE = AndroidCatchUpExampleSwiftAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1factory.AndroidCatchUpExampleSwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AndroidCatchUpExampleSwiftApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA6F26125B130F1003037F8 /* Build configuration list for PBXProject "AndroidCatchUpExampleSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6F28E25B130F3003037F8 /* Debug */,
+				DEA6F28F25B130F3003037F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA6F29025B130F3003037F8 /* Build configuration list for PBXNativeTarget "AndroidCatchUpExampleSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6F29125B130F3003037F8 /* Debug */,
+				DEA6F29225B130F3003037F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA6F29325B130F3003037F8 /* Build configuration list for PBXNativeTarget "AndroidCatchUpExampleSwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6F29425B130F3003037F8 /* Debug */,
+				DEA6F29525B130F3003037F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA6F29625B130F3003037F8 /* Build configuration list for PBXNativeTarget "AndroidCatchUpExampleSwiftAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6F29725B130F3003037F8 /* Debug */,
+				DEA6F29825B130F3003037F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA6F25E25B130F1003037F8 /* Project object */;
+}
